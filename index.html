@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Flat Sliders</title>
+        
+        <link rel="stylesheet" href="css/flexslider.css"/>
+        <link rel="stylesheet" href="style.css"/>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/jquery.flexslider-min.js"></script>
+        
+        <script type="text/javascript" charset="utf-8">
+          $(window).load(function() {
+            $('.flexslider').flexslider();
+          });
+        </script>
+    </head>
+    <body>
+    <div class="container">
+        <h1>SLIDER</h1>
+        <div id="custom" class="flexslider">            
+              <ul class="slides">
+                <li>
+                    <a href="#"><img src="img/imgslide1.png" class="img-slides"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/imgslide2.png" class="img-slides"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/imgslide1.png" class="img-slides" /></a>
+                </li>            
+                <li>
+                    <a href="#"><img src="img/imgslide2.png" class="img-slides"/></a>                
+                </li>
+              </ul>
+            <div class="block"></div>
+        </div>
+    </div>
+    </body>
+</html>
